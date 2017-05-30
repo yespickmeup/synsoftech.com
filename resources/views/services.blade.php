@@ -41,11 +41,11 @@
                             <div class="menu">
                                 <ul class="nav nav-tabs" role="tablist">
                                     <li role="presentation"><a href="{{url('/')}}" >Home</a></li>
-                                    <li role="presentation"><a href="{{route('about')}}">About Us</a></li>
-                                    <li role="presentation"><a href="{{route('services')}}" class="active">Services</a></li>								
-                                    <li role="presentation"><a href="{{route('portfolio')}}">Portfolio</a></li>
-                                    <li role="presentation"><a href="{{route('blog')}}">Blog</a></li>
-                                    <li role="presentation"><a href="{{route('contact')}}">Contact</a></li>						
+                                    <li role="presentation"><a href="{{url('/about')}}">About Us</a></li>
+                                    <li role="presentation"><a href="{{url('/services')}}" class="active">Services</a></li>								
+                                    <li role="presentation"><a href="{{url('/portfolio')}}">Portfolio</a></li>
+                                    <li role="presentation"><a href="{{url('/blog')}}">Blog</a></li>
+                                    <li role="presentation"><a href="{{url('/contact')}}">Contact</a></li>						
                                 </ul>
                             </div>
                         </div>						
