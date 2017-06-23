@@ -11,7 +11,7 @@
 
                 <div class="panel-body">
                     <div class="navbar-header">
-                          <a class="navbar-brand" href="#">Settings</a>
+                          <a class="navbar-brand" href="#">Settings1</a>
                     </div>
                     <ul class="nav navbar-nav">
                       <li><a href="{{url('/settings/home')}}">Home</a></li>
