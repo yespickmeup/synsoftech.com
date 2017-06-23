@@ -14,7 +14,7 @@
                           <a class="navbar-brand" href="#">Settings</a>
                     </div>
                     <ul class="nav navbar-nav">
-                      <li><a href="{{url('/settings/home')}}">Home</a></li>
+                      <li class="active"><a href="{{url('/settings/home')}}">Home</a></li>
                       <li><a href="{{url('/settings/about')}}">About us</a></li>
                       <li><a href="#">Services</a></li>
                       <li><a href="#">Portpolio</a></li>

@@ -17,7 +17,7 @@ Route::get('/', function () {
 
 
 
-Route::get('/home', function () {
+Route::get('/dashboard', function () {
     return view('home');
 });
 Route::get('/about', function () {
@@ -35,6 +35,15 @@ Route::get('/blog', function () {
 Route::get('/contact', function () {
     return view('contact');
 });
+
+
+Route::get('/settings/home', function () {
+    return view('settings.settings-home');
+});
+Route::get('/settings/about', function () {
+    return view('settings.settings-about');
+});
+
 
 Auth::routes();
 // Route::get('/blog', 'BlogController@index')->name('blog');
